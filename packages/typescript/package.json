@@ -1,6 +1,6 @@
 {
   "name": "@kriszu/eslint-config-ts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ts configuration",
   "author": "Krismile Zhu <wangsizhu0504@outlook.com>",
   "license": "MIT",
