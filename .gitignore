@@ -339,4 +339,4 @@ token
 .envrc
 .direnv*
 
-dist/*
+dist
