@@ -1,7 +1,5 @@
 # @kriszu/eslint-config
 
-This project is based on [@antfu/eslint-config](https://github.com/antfu/eslint-config)
-
 [English](README.md) | [中文](README_ZH.md)
 
 - Single quotes, no semi
@@ -15,7 +13,7 @@ This project is based on [@antfu/eslint-config](https://github.com/antfu/eslint-
 ### Install
 
 ```bash
-pnpm add -D eslint @kriszu/eslint-config
+npm add -D eslint @kriszu/eslint-config
 ```
 
 ### Config `.eslintrc`
@@ -54,3 +52,5 @@ Create `.vscode/settings.json`
   }
 }
 ```
+
+This project is based on [@antfu/eslint-config](https://github.com/antfu/eslint-config)
