@@ -1,1 +1,0 @@
-module.exports = require("/Users/wsz/workspace/github/kriszu-eslint/node_modules/.pnpm/jiti@1.16.0/node_modules/jiti/lib/index.js")(null, { interopDefault: true, esmResolve: true })("/Users/wsz/workspace/github/kriszu-eslint/packages/eslint-plugin-kriszu/src/index.ts")
