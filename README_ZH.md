@@ -1,5 +1,7 @@
 # @kriszu/eslint-config
 
+来源: [@antfu/eslint-config](https://github.com/antfu/eslint-config)
+
 [中文](README_ZH.md) | [English](README.md)
 
 [![npm](https://img.shields.io/npm/v/@kriszu/eslint-config?color=a1b858&label=)](https://npmjs.com/package/@kriszu/eslint-config)

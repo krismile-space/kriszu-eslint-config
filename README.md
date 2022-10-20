@@ -1,8 +1,8 @@
 # @kriszu/eslint-config
 
-[English](README.md) | [中文](README_ZH.md)
+Forked from [@antfu/eslint-config](https://github.com/antfu/eslint-config)
 
-[![npm](https://img.shields.io/npm/v/@kriszu/eslint-config?color=a1b858&label=)](https://npmjs.com/package/@kriszu/eslint-config)
+[English](README.md) | [中文](README_ZH.md)
 
 - Single quotes, no semi
 - Auto fix for formatting (aimed to be used standalone without Prettier)
