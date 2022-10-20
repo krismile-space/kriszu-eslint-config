@@ -1,6 +1,6 @@
 # @kriszu/eslint-config
 
-Forked from [@antfu/eslint-config](https://github.com/antfu/eslint-config)
+This project is based on [@antfu/eslint-config](https://github.com/antfu/eslint-config)
 
 [English](README.md) | [中文](README_ZH.md)
 
