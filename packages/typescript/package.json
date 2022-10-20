@@ -1,0 +1,27 @@
+{
+  "name": "@kriszu/eslint-config-ts",
+  "version": "0.1.0",
+  "description": "ts configuration",
+  "author": "Krismile Zhu <wangsizhu0504@outlook.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/wangsizhu0504/eslint-config",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@kriszu/eslint-config-basic": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0"
+  }
+}

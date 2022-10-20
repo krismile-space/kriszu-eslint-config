@@ -1,0 +1,2 @@
+export * from "/Users/wsz/workspace/github/kriszu-eslint/packages/eslint-plugin-kriszu/src/index";
+export { default } from "/Users/wsz/workspace/github/kriszu-eslint/packages/eslint-plugin-kriszu/src/index";

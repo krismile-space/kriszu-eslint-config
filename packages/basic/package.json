@@ -1,0 +1,38 @@
+{
+  "name": "@kriszu/eslint-config-basic",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Krismile Zhu <wangsizhu0504@outlook.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/wangsizhu0504/eslint-config",
+  "keywords": [
+    "eslint-config"
+  ],
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsonc": "^2.4.0",
+    "eslint-plugin-kriszu": "workspace:*",
+    "eslint-plugin-markdown": "^3.0.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.1.0",
+    "eslint-plugin-unicorn": "^44.0.2",
+    "eslint-plugin-yml": "^1.2.0",
+    "jsonc-eslint-parser": "^2.1.0",
+    "yaml-eslint-parser": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0"
+  }
+}
