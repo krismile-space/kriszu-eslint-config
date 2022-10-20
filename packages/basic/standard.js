@@ -202,14 +202,7 @@ module.exports = {
     'semi': ['error', 'never'],
     'semi-spacing': ['error', { before: false, after: true }],
     'space-before-blocks': ['error', 'always'],
-    'space-before-function-paren': [
-      'error',
-      {
-        anonymous: 'always',
-        named: 'never',
-        asyncArrow: 'always',
-      },
-    ],
+    'space-before-function-paren': ['error', 'always'],
     'space-in-parens': ['error', 'never'],
     'space-infix-ops': 'error',
     'space-unary-ops': ['error', { words: true, nonwords: false }],
@@ -246,6 +239,6 @@ module.exports = {
     'n/process-exit-as-throw': 'error',
 
     'promise/param-names': 'error',
-    'promise/no-return-in-finally': 'warn'
+    'promise/no-return-in-finally': 'warn',
   },
 }

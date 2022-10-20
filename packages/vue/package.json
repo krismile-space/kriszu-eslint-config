@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "@kriszu/eslint-config-ts": "workspace:*",
-    "eslint-plugin-vue": "^9.4.0"
+    "eslint-plugin-vue": "^9.6.0"
   },
   "devDependencies": {
     "eslint": "^8.23.0"
