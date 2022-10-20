@@ -1,7 +1,7 @@
 {
   "name": "@kriszu/eslint-config-ts",
   "version": "0.1.3",
-  "description": "ts configuration",
+  "description": "kriszu's ESLint config of typescript",
   "author": "Krismile Zhu <wangsizhu0504@outlook.com>",
   "license": "MIT",
   "homepage": "https://github.com/wangsizhu0504/eslint-config",
