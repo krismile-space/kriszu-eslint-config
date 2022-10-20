@@ -1,8 +1,8 @@
-# @kriszu/eslint-config
+# @kriszu/eslint-config-ts
+
 
 [中文](README_ZH.md) | [English](README.md)
 
-[![npm](https://img.shields.io/npm/v/@kriszu/eslint-config?color=a1b858&label=)](https://npmjs.com/package/@kriszu/eslint-config)
 
 - 单引号，无半角
 - 格式化的自动修复（旨在独立使用，不需要Prettier）。
@@ -15,7 +15,7 @@
 ### 安装
 
 ```bash
-pnpm add -D eslint @kriszu/eslint-config
+pnpm add -D eslint @kriszu/eslint-config-ts
 ```
 
 ### Config `.eslintrc`

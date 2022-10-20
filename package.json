@@ -9,12 +9,13 @@
   "scripts": {
     "lint": "eslint .",
     "test": "pnpm -r run test",
-    "release": "bumpp package.json packages/*/package.json --commit --push --set-upstream origin master --tag && pnpm -r publish --no-git-checks --access public"
+    "release": "bumpp package.json packages/*/package.json --commit --push --set-upstream origin master --tag",
+    "pub": "pnpm -r publish --no-git-checks --access public"
   },
   "devDependencies": {
     "@kriszu/eslint-config": "*",
-    "eslint": "^8.23.0",
     "bumpp": "^8.2.1",
+    "eslint": "^8.23.0",
     "eslint-plugin-kriszu": "workspace:*",
     "typescript": "^4.8.2"
   }

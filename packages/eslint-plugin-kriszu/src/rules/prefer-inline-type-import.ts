@@ -32,7 +32,6 @@ export default createEslintRule<Options, MessageIds>({
         if (node.importKind === 'type') {
           context.report({
             *fix(fixer) {
-              //@ts-ignore
               yield * removeTypeSpecifier(fixer, sourceCode, node)
 
               for (const specifier of node.specifiers)

@@ -338,3 +338,5 @@ token
 
 .envrc
 .direnv*
+# Nuxt generate
+dist

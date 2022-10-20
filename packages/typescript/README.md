@@ -1,4 +1,4 @@
-# @kriszu/eslint-config
+# @kriszu/eslint-config-ts
 
 [English](README.md) | [中文](README_ZH.md)
 
@@ -13,7 +13,7 @@
 ### Install
 
 ```bash
-npm add -D eslint @kriszu/eslint-config
+npm add -D eslint @kriszu/eslint-config-ts
 ```
 
 ### Config `.eslintrc`
