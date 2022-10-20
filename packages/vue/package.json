@@ -1,6 +1,6 @@
 {
   "name": "@kriszu/eslint-config-vue",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "vue configuration",
   "author": "Krismile Zhu <wangsizhu0504@outlook.com>",
   "license": "MIT",
