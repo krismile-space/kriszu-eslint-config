@@ -12,12 +12,17 @@
   "files": [
     "index.js"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
-    "eslint": ">=7.4.0"
+    "eslint": ">=7.4.0",
+    "vue": "^2.0.0 || ^3.0.0"
   },
   "dependencies": {
     "@kriszu/eslint-config-ts": "workspace:*",
-    "eslint-plugin-vue": "^9.6.0"
+    "eslint-plugin-vue": "^9.6.0",
+    "local-pkg": "^0.4.2"
   },
   "devDependencies": {
     "eslint": "^8.23.0"

@@ -10,8 +10,7 @@ module.exports = {
     'plugin:import/recommended',
     'plugin:eslint-comments/recommended',
     'plugin:jsonc/recommended-with-jsonc',
-    'plugin:yml/standard',
-    'plugin:markdown/recommended',
+    'plugin:yml/standard'
   ],
   ignorePatterns: [
     '*.min.*',
@@ -38,7 +37,7 @@ module.exports = {
   ],
   settings: {
     'import/resolver': {
-      node: { extensions: ['.js', '.mjs'] },
+      node: { extensions: ['.js', '.mjs', '.ts', '.d.ts'] },
     },
   },
   overrides: [
@@ -76,8 +75,8 @@ module.exports = {
               'publisher',
               'name',
               'displayName',
-              'type',
               'version',
+              'type',
               'private',
               'packageManager',
               'description',
@@ -181,7 +180,23 @@ module.exports = {
     // 参数：0 关闭，1 警告，2 错误
 
     // import
-    'import/order': 'error',
+    'import/order': [
+      'error',
+      {
+        groups: [
+          'builtin',
+          'external',
+          'internal',
+          'parent',
+          'sibling',
+          'index',
+          'object',
+          'type',
+        ],
+        pathGroups: [{ pattern: '@/**', group: 'internal' }],
+        pathGroupsExcludedImportTypes: ['type'],
+      },
+    ],
     'import/first': 'error',
     'import/no-mutable-exports': 'error',
     'import/no-unresolved': 'off',
