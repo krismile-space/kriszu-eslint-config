@@ -4,7 +4,7 @@
 
 [![npm](https://img.shields.io/npm/v/@kriszu/eslint-config?color=a1b858&label=)](https://npmjs.com/package/@kriszu/eslint-config)
 
-- 单引号，无半角
+- 单引号
 - 格式化的自动修复（旨在独立使用，不需要Prettier）。
 - 设计用于与TypeScript、Vue开箱即用。
 - 也适用于json、yaml、markdown
