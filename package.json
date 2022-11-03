@@ -1,6 +1,6 @@
 {
   "name": "@kriszu/eslint-config-monorepo",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": true,
   "packageManager": "pnpm@7.1.0",
   "author": "Krismile Zhu <wangsizhu0504@outlook.com>",

@@ -1,6 +1,6 @@
 {
   "name": "@kriszu/eslint-config-basic",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "kriszu's ESLint basic config",
   "author": "Krismile Zhu <wangsizhu0504@outlook.com>",
   "license": "MIT",
