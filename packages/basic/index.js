@@ -204,7 +204,9 @@ module.exports = {
     'import/no-absolute-path': 'off',
 
     // Common
-    'semi': 'off',
+    'semi':['warn','always'],
+    'semi-spacing': ['warn', { before: false, after: true }],
+    "omitLastInOneLineBlock": true,
     'curly': ['error', 'multi-or-nest', 'consistent'],
     'quotes': ['error', 'single'],
     'quote-props': ['error', 'consistent-as-needed'],
