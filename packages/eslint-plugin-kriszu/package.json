@@ -18,12 +18,12 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@types/node": "^18.11.8",
-    "@typescript-eslint/utils": "^5.36.1"
+    "@types/node": "^18.11.9",
+    "@typescript-eslint/utils": "^5.42.0"
   },
   "devDependencies": {
     "rimraf": "^3.0.2",
-    "unbuild": "^0.8.11",
-    "vitest": "^0.24.3"
+    "unbuild": "^0.9.4",
+    "vitest": "^0.24.5"
   }
 }
